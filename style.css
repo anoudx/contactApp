@@ -1,0 +1,131 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: radial-gradient(circle at top left, #27375f 0%, #081029 45%, #050814 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.search-input {
+  background-color: #27375f;
+  border: none;
+  border-radius: 25px;
+  padding: 14px 18px;
+}
+.search-input::placeholder{
+    color: #fff;
+}
+.search-input:focus{
+    outline: none;
+    color: #ffffff;
+}
+.btn-add {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background: linear-gradient(135deg, #3870ff, #6c63ff);
+  border: none;
+  box-shadow: 0 0 20px rgba(108, 99, 255, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-add:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px rgba(108, 99, 255, 0.6);
+}
+
+/* .contact-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 10px;
+} */
+
+.avatar-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background:#adaae9;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-border{
+    border-bottom-color: #64636767 !important;
+    padding: 8px;
+    box-shadow: 0 0.5px 0px rgba(55, 57, 56, 0.529);
+}
+
+.fav{
+      color: #adaae9;
+      padding: 8px;
+}
+.card-item {
+  width: 90px;             
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #5276d351;
+  padding: 10px 50px;
+  border-radius: 8px;
+}
+.card-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 22px;               
+  background-color: #6c63ff;         
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+.textInput input{
+  background-color: #27375f;
+  border: none;
+  border-radius: 25px;
+  padding: 14px 18px;
+}
+.textInput input:focus,
+.textInput input:active,
+.textInput input:focus-visible {
+  background-color: #27375f;   
+  color: #fff;
+  outline: none;
+  box-shadow: none;          
+  border-color: transparent;  
+}
+
+.textInput input::placeholder {
+  color: #b0c4ff;
+  opacity: 1;
+}
+#userImg{
+    background-color: gray;
+    padding: 40px;
+    margin: 0;
+    background-size: cover;
+
+}
+
+#userImg { position: relative; }
+
+
+#userImg:hover::after,
+#userImg:focus-visible::after {
+    content: "Edit";
+  position: absolute;
+   bottom: 5px;
+   left: 50%;
+   font-size: 12px;
+  opacity: 1;
+  color: rgb(54, 53, 53);
+  transform: translateX(-50%) translateY(2px);
+}
