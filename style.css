@@ -11,6 +11,9 @@ html, body {
   padding: 0;
 }
 
+
+
+
 .search-input {
   background-color: #27375f;
   border: none;
@@ -24,7 +27,7 @@ html, body {
     outline: none;
     color: #ffffff;
 }
-.btn-add {
+.btnAdd {
   width: 50px;
   height: 50px;
   font-size: 20px;
@@ -34,7 +37,7 @@ html, body {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.btn-add:hover {
+.btnAdd:hover {
   transform: scale(1.1);
   box-shadow: 0 0 25px rgba(108, 99, 255, 0.6);
 }
@@ -56,11 +59,18 @@ html, body {
   align-items: center;
   justify-content: center;
 }
-
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background:#adaae9;
+  color: #fff;
+  font-weight: bold;
+}
 .custom-border{
     border-bottom-color: #64636767 !important;
     padding: 8px;
-    box-shadow: 0 0.5px 0px rgba(55, 57, 56, 0.529);
+   
 }
 
 .fav{
@@ -128,4 +138,23 @@ html, body {
   opacity: 1;
   color: rgb(54, 53, 53);
   transform: translateX(-50%) translateY(2px);
+}
+.letter-header {
+  margin-top: 14px;
+ color : gray;
+
+}
+.custom-border {
+  padding: 6px 0;
+}
+.custom-border:last-child {
+  border-bottom: none;
+}
+
+
+.contactCard{
+padding: 12px;
+margin: 8px;
+border-radius: 9px;
+background-color: #adaae91f;
 }
